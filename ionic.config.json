@@ -1,0 +1,7 @@
+{
+    "name": "todo-reminder-app",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
+}

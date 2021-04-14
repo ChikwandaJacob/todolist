@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App-Title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Form Styles*/
+
+.Reminder-Form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="date"],
+input[type="text"],
+.Form-Button {
+    margin: 10px;
+    display: block;
+    width: 100%;
+}
+
+input[type='date'] {
+    padding: 5px;
+}
+
+
+/*Reminder List Styles*/
+
+.Todo-Title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Reminder-Item {
+    width: 300px;
+    color: black;
+    background-color: #5bc0de;
+}
+
+.Delete-Button {
+    position: absolute;
+    font-size: 18px;
+    right: 20px;
+    top: 28px;
+}
+
+.Clear-List-Button {
+    margin: 10px;
+}
+
+.Reminder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Footer*/
+
+.footer {
+    margin: 0 20% 0 20%;
+}
+
+.author {
+    font-size: 18px;
+    margin-top: 10px
+}
+
+.footer-line {
+    border: 2px solid white;
+    max-width: 600px;
+}
+
+.footer-line-author {
+    border: 2px solid white;
+    max-width: 200px;
+}

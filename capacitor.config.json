@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.todo-reminder-app",
+    "appName": "nameofyourapp",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+}
